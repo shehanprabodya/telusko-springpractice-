@@ -2,6 +2,7 @@ package com.shehan.demo;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,6 +14,8 @@ public class Dev {
     //private Laptop laptop;//instance variable
 
     @Autowired
+    @Qualifier("laptop")
+
     private Computor comp;
 //    public Dev(Laptop laptop) {// constructor injection
 
