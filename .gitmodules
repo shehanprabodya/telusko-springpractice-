@@ -1,0 +1,3 @@
+[submodule "demoSpring"]
+	path = demoSpring
+	url = https://github.com/shehanprabodya/demoSpring.git
